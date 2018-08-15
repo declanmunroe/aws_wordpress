@@ -27,6 +27,7 @@
 			<nav class="blog-nav">
 				<a class="blog-nav-item active" href="<?php echo get_bloginfo( 'wpurl' );?>">Home</a>
 				<?php wp_list_pages( '&title_li=' ); ?>
+                                <li><a href="http://wordpresspipeline.localhost/declan-test-page/">Test local link</a></li>
 			</nav>
 		</div>
 	</div>
