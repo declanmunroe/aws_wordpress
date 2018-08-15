@@ -1,0 +1,1598 @@
+@import url("//fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700");
+
+body { font-family: "Open Sans",Calibri,Candara,'Helvetica Neue', Helvetica, Arial,sans-serif }
+
+/*========= JUMBOTRON ================== */
+
+.block-jumbo .col-md-4 h1 span { display:block;font-weight:normal;letter-spacing:0  }
+.block-jumbo .col-md-4 h1 { font-weight: bold;color: #005581; letter-spacing:-1px }
+.block-jumbo .col-md-4 h2 { color:#000; margin: 0 auto }
+.block-jumbo .col-md-4  i { margin: 0 auto; color: #d35400 }
+	.block-light-grey p.lead { line-height: 136% }
+
+
+/*--- Mobile portrait ---*/
+@media all and (max-width: 320px) {
+	.block-jumbo { padding: 0 }
+	.block-jumbo .col-md-4 h1 { margin-top:0;font-size: 32px }
+	.block-jumbo .col-md-4 h1 span { font-size: 32px }
+	.block-jumbo .col-md-4 h2 { font-size: 16px }
+	.block-jumbo .col-md-4 i { font-size: 42px; margin-bottom:12px; margin-top:20px }
+	.block-vertical .col-md-4 p.conference-price { margin-bottom:20px }
+
+}
+
+/*--- Mobile landscape ---*/
+@media all and (max-width: 480px) and (min-width: 321px) {
+	.block-jumbo { padding: 0 }
+	.block-jumbo .col-md-4 h1 { margin-top:0;font-size: 32px }
+	.block-jumbo .col-md-4 h1 span { font-size: 32px }
+	.block-jumbo .col-md-4 h2 { font-size: 22px }
+	.block-jumbo .col-md-4 i { font-size: 42px; margin-bottom:12px; margin-top:20px }
+	.block-vertical .col-md-4 p.conference-price { margin-bottom:20px }
+
+}
+
+/*--- Small tablets (sm) --*/
+@media all and (max-width: 767px) and (min-width: 481px) {
+	.block-jumbo { padding: 0 }
+	.block-jumbo .col-md-4 h1 { margin-top:0;font-size: 32px }
+	.block-jumbo .col-md-4 h1 span { font-size: 32px }
+	.block-jumbo .col-md-4 h2 { font-size: 22px }
+	.block-jumbo .col-md-4 i { font-size: 42px; margin-bottom:12px; margin-top:20px }
+	.block-vertical .col-md-4 p.conference-price { margin-bottom:20px }
+
+}
+
+/* Smaller desktops and laptops ( multiple cols, md) */
+@media all and (max-width: 991px) and (min-width: 768px) {
+	.block-jumbo { padding: 0 }
+	.block-jumbo .col-md-4 h1 { margin-top:0;font-size: 32px }
+	.block-jumbo .col-md-4 h1 span { font-size: 32px }
+	.block-jumbo .col-md-4 h2 { font-size: 14px }
+	.block-jumbo .col-md-4 i { font-size: 22px; margin-bottom:12px; margin-top:20px }
+	.block-vertical .col-md-4 p.conference-price { margin-bottom:20px }
+
+}
+
+/* Less small desktops and laptops (lg) ----------- */
+@media only screen and (max-width: 1024px) and (min-width : 992px) {
+	.block-jumbo .col-md-4 h1 { font-size: 32px }
+	.block-jumbo .col-md-4 h1 span { font-size: 28px }
+	.block-jumbo .col-md-4 h2 { font-size: 22px }
+	.block-jumbo .col-md-4 i { font-size: 36px; margin-bottom:12px; margin-top:20px }
+
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1119px) {
+	.block-jumbo .col-md-4 h1 { font-size: 42px }
+	.block-jumbo .col-md-4 h1 span { font-size: 32px }
+	.block-jumbo .col-md-4 h2 { font-size: 20px }
+	.block-jumbo .col-md-4 i { font-size: 26px; margin-bottom:12px; margin-top:12px }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1336px) {
+	.block-jumbo .col-md-4 h1 { font-size: 52px }
+	.block-jumbo .col-md-4 h1 span { font-size: 32px }
+	.block-jumbo .col-md-4 h2 { font-size: 20px }
+	.block-jumbo .col-md-4 i { font-size: 38px; margin-bottom:12px; margin-top:20px }
+}
+
+
+
+@media only screen and (min-width: 1337px) and (max-width: 1440px) {
+	.block-jumbo .col-md-4 h1 { font-size: 54px }
+	.block-jumbo .col-md-4 h1 span { font-size: 32px }
+	.block-jumbo .col-md-4 h2 { font-size: 22px }
+	.block-jumbo .col-md-4 i { font-size: 36px; margin-bottom:12px; margin-top:20px }
+
+}
+
+
+/* Larger screens ----------- */
+@media only screen and (min-width: 1441px) {
+	.block-jumbo .col-md-4 h1 { font-size: 54px }
+	.block-jumbo .col-md-4 h1 span { font-size: 32px }
+	.block-jumbo .col-md-4 h2 { font-size: 22px }
+	.block-jumbo .col-md-4 i { font-size: 36px; margin-bottom:12px; margin-top:20px }
+}
+
+
+
+
+/* ===== VERTICAL BLOCKS PADDING ================ */
+
+.block-vertical { width:100%  }
+.block-vertical .row .col-md-12 { text-align:center }
+.block-vertical .row .col-md-12 h2 { letter-spacing: -1px }
+.block-vertical .row .row .col-md-12 h3, .block-vertical .row .row .col-md-12 p { text-align: left }
+.block-vertical .col-md-12 h4 { margin: 0 auto 0 auto; padding:0; color: #005581; font-weight: bold;line-height:138% }
+
+.block-vertical p { line-height: 126% }
+.block-vertical ul, .block-vertical ul.fa-ul { margin: -6px 0 0 0; padding-left:26px }
+.block-vertical li { line-height: 120% }
+.block-vertical ul.fa-ul { margin: -6px 0 0 0; padding-left:26px}
+.block-vertical ul.fa-ul li i { color: #68217a }
+.block-vertical .img-responsive { margin: 20px auto; text-align:center }
+
+
+#speakers .col-md-3 .well { border-width:0; border-radius: 0 !important; border-color:  #95A5A6; background: #f3f6f6; color:#444 }
+
+
+
+.block-white { background: #fff }
+.block-white a:link, .block-light-grey a:link, .block-white a:visited, .block-light-grey a:visited { color:#005581; text-decoration: underline}
+.block-white a:hover, .block-light-grey a:hover,  .block-white a:active, .block-light-grey  a:hover{ text-decoration: none }
+
+
+.block-light-grey { background: #f3f6f6 }
+.block-white .col-md-12 h2,
+.block-light-grey .col-md-12 h2 { color: #005581 }
+
+
+.arrow-box-white { position: relative; background: #fff; border: 4px solid #fff }
+.arrow-box-white:after, .arrow-box-white:before { top: 100%; left: 50%; border: solid transparent; content: " "; height: 0; width: 0; position: absolute; }
+.arrow-box-white:after { border-color: rgba(221, 242, 255, 0); border-top-color: #fff; border-width: 30px; margin-left: -30px; }
+.arrow-box-white:before { border-color: rgba(221, 242, 255, 0); border-top-color: #fff; border-width: 36px; margin-left: -36px }
+
+.arrow-box-white-home { position: relative; background: #fff; border: 4px solid #0070be; margin-top: -1px; }
+.arrow-box-white-home:after, .arrow-box-white:before { top: 100%; left: 50%; border: solid transparent; content: " "; height: 0; width: 0; position: absolute; }
+.arrow-box-white-home:after { border-color: rgba(221, 242, 255, 0); border-top-color: #0070be; border-width: 30px; margin-left: -30px; margin-top: 4.2px; }
+.arrow-box-white-home:before { border-color: rgba(221, 242, 255, 0); border-top-color: #fff; border-width: 36px; margin-left: -36px }
+
+.arrow-box-grey { position: relative; background: #f3f6f6; border: 3px solid #f3f6f6;margin-bottom:40px }
+.arrow-box-grey:after, .arrow_box-grey:before {
+	top: 100%; left: 50%; border: solid transparent; content: " "; height: 0; width: 0; position: absolute; pointer-events: none; }
+.arrow-box-grey:after { border-color: rgba(221, 242, 255, 0); border-top-color: #f3f6f6; border-width: 30px; margin-left: -30px; }
+.arrow-box-grey:before { border-color: rgba(221, 242, 255, 0); border-top-color: #f3f6f6; border-width: 36px; margin-left: -36px; }
+
+
+/*  BOOK NOW ============================================*/
+
+
+.block-vertical .col-md-4 .btn-primary {
+	border-radius:0;
+    color: #fff;
+    font-size: 22px;
+    padding: 12px 22px;
+}
+
+
+/* SPONSORS ===================================================================== */
+#sponsors { width:100%; margin: 0 auto; clear:both; background: #fff }
+
+
+/* SPEAKERS ===================================================================== */
+
+#speakers { width:100%; margin: 0 auto; clear:both;  }
+#speakers a:link, #speakers a:visited { color: #005581; text-decoration: underline }
+#speakers a:hover, #speakers a:active { text-decoration: none }
+#speakers .col-md-3 { text-align:center }
+#speakers .col-md-3 p { margin: 4px auto 20px auto  }
+
+#speakers .col-md-3 .well { text-align: center }
+#speakers .col-md-3 .well p { margin:0 0 12px 0}
+
+
+
+/* ATTENDEES ===================================================================== */
+
+.attendees { width:100%; margin: 0 auto; clear:both; background: #3498db url('../img/background-869586_1281.png') no-repeat center top }
+.attendees h2, .attendees p, .attendees ul li { color:#fff }
+.attendees h2 { color:#fff; text-align: center }
+.attendees .well { border-radius: 0; border-width: 0; margin-bottom: 20px; padding: 19px; background:#2980b9 }
+
+/* ATTENDEES ===================================================================== */
+
+#venue { width:100%; margin: 0 auto; clear:both }
+#venue p, #venue ul li { color:#444 }
+#venue .col-md-12 h2 { text-align: center; color: #2980b9 }
+#venue .col-md-12 h2 i { color: #ea2f4c }
+#venue .col-md-6 .well { border-radius: 0; border-width: 0; margin-bottom: 20px; padding: 19px; background:#f3f6f6 }
+#venue .col-md-6 .well ul.fa-ul li i { color: green }
+
+
+
+
+/*--- Mobile portrait ---*/
+@media all and (max-width: 320px) {
+	.block-vertical .no-top-desktop { margin-top:0 !important; padding-top: 0 !important }
+	.block-white { padding: 10px 0 20px 0 }
+	.block-light-grey { padding: 50px 0 20px 0 }
+	.block-vertical .col-md-12 h2 { font-size:28px; line-height: 112%; margin-top:0; margin-bottom: 12px }
+	.block-vertical .col-md-12 h2.arrow-before { margin-top:0 }
+	.block-white .col-md-12 h2.arrow-before { margin-top:0 }
+
+	.block-vertical .col-md-6 p.lead { font-size: 14px }
+	.block-vertical .col-md-12 p, .block-vertical .col-md-9 p,
+	.block-vertical .col-md-6 p,
+	.block-vertical .col-md-4 p,
+	.block-vertical .col-md-3 p { font-size:14px; margin-bottom: 10px }
+	.block-vertical ul { margin-bottom: 6px }
+
+	.block-vertical .col-md-6 ul li,
+	.block-vertical .col-md-4 ul li,
+	.block-vertical .col-md-3 ul li { font-size:14px; margin-bottom: 4px; line-height:128% }
+
+	.block-vertical .col-md-4 p.conference-price { line-height:100%; font-size:48px;color: #34495e; margin: 0 auto 12px auto }
+	.block-vertical .col-md-4 .btn-primary { font-size:18px; color:#fff;text-decoration:none; padding:6px 22px }
+
+	#sponsors .container .row .col-md-3 a img.img-responsive { text-align:center }
+
+
+	/* SPEAKERS ====================== */
+	#speakers { padding: 60px 0 22px 0 }
+	#speakers .col-md-12 h2.arrow-before { font-size:28px;margin-bottom:20px }
+	#speakers .col-md-3 { min-height:240px }
+	#speakers .col-md-3 .img-responsive { width: 72%; margin-bottom:12px }
+	#speakers .col-md-3 p { font-size: 13px; font-weight: normal; line-height:136%; margin-bottom:22px }
+	#speakers .col-md-3 p b { font-size: 15px; font-weight: bold }
+	#speakers .col-md-3 .well { padding: 12px 12px 4px 20px }
+	#speakers .col-md-3 .well p { margin-bottom:12px }
+
+	#speakers .col-md-3 p.text-center { min-height:80px  }
+
+
+	/* ATTENDEES ================= */
+	.attendees { padding: 4px 0 32px 0 }
+	.attendees .col-md-12 h2.arrow-before { font-size:28px;margin-bottom:20px }
+	.attendees p.deckhead { font-size:16px;line-height:140% }
+	.attendees #list-attendees { margin-left: 24px }
+	.attendees #list-attendees li { font-size:14px;margin-bottom:12px; margin-right:20px; line-height:130% }
+	.attendees .well ul.fa-ul { margin-left:28px }
+	.attendees .well { margin: 20px 0 0 0; padding: 12px 9px 2px 12px }
+	.attendees .well p { font-size:14px }
+	.attendees .well ul.fa-ul li { font-size:13px }
+
+	/* VENUE ================= */
+	#venue { padding: 40px 0 32px 0 }
+	#venue .col-md-12 h2.arrow-before { font-size:28px;margin-bottom:20px }
+	#venue .col-md-6 p { font-size:14px; line-height:136%}
+	#venue .well { margin: 12px 0 0 0; padding-bottom:12px }
+	#venue .well ul.fa-ul { margin-left: -12px }
+	#venue .col-md-6 .well p { line-height:138% }
+	#venue .col-md-6 .well ul.fa-ul li { font-size:13px; margin-bottom: 4px; line-height:128% }
+}
+
+
+/*--- Mobile portrait ---*/
+@media all and (min-width: 321px) and (max-width: 360px) {
+	.block-vertical .no-top-desktop { margin-top:0 !important; padding-top: 0 !important }
+	.block-white { padding: 10px 0 20px 0 }
+	.block-light-grey { padding: 50px 0 20px 0 }
+	.block-vertical .col-md-12 h2 { font-size:28px; line-height: 112%; margin-top:0; margin-bottom: 12px }
+	.block-vertical .col-md-12 h2.arrow-before { margin-top:0 }
+	.block-white .col-md-12 h2.arrow-before { margin-top:0 }
+
+	.block-vertical .col-md-6 p.lead { font-size: 14px }
+	.block-vertical .col-md-12 p, .block-vertical .col-md-9 p,
+	.block-vertical .col-md-6 p,
+	.block-vertical .col-md-4 p,
+	.block-vertical .col-md-3 p { font-size:14px; margin-bottom: 10px }
+	.block-vertical ul { margin-bottom: 6px }
+
+	.block-vertical .col-md-6 ul li,
+	.block-vertical .col-md-4 ul li,
+	.block-vertical .col-md-3 ul li { font-size:14px; margin-bottom: 4px; line-height:128% }
+
+	.block-vertical .col-md-4 p.conference-price { line-height:100%; font-size:48px;color: #34495e; margin: 0 auto 12px auto }
+	.block-vertical .col-md-4 .btn-primary { font-size:18px; color:#fff;text-decoration:none; padding:6px 22px }
+
+	#sponsors .container .row .col-md-3 a img.img-responsive { text-align:center }
+
+	/* SPEAKERS ====================== */
+	#speakers { padding: 60px 0 22px 0 }
+	#speakers .col-md-12 h2.arrow-before { font-size:32px;margin-bottom:32px }
+	#speakers .col-md-3 { min-height:250px}
+	#speakers .col-md-3 .img-responsive { width: 68%;margin-bottom:12px }
+	#speakers .col-md-3 p { font-size: 14px; font-weight: normal; line-height:136%;margin-bottom:20px }
+	#speakers .col-md-3 .well { padding: 12px 12px 4px 20px }
+	#speakers .col-md-3 .well p { margin-bottom:12px }
+	#speakers .col-md-3 p.text-center { min-height:80px  }
+
+
+	/* ATTENDEES ================= */
+	.attendees { padding: 4px 0 32px 0 }
+	.attendees .col-md-12 h2.arrow-before { font-size:28px;margin-bottom:20px }
+	.attendees p.deckhead { font-size:16px;line-height:140% }
+	.attendees #list-attendees { margin-left: 24px }
+	.attendees #list-attendees li { font-size:14px;margin-bottom:12px; margin-right:20px; line-height:130% }
+	.attendees .well ul.fa-ul { margin-left:28px }
+	.attendees .well { margin: 20px 0 0 0; padding: 12px 9px 2px 12px }
+	.attendees .well p { font-size:14px }
+	.attendees .well ul.fa-ul li { font-size:14px }
+
+	/* VENUE ================= */
+	#venue { padding: 20px 0 32px 0 }
+	#venue .col-md-12 h2.arrow-before { font-size:28px;margin-bottom:20px }
+	#venue .col-md-6 p { font-size:14px; line-height:136%}
+	#venue .well { margin: 12px 0 0 0; padding-bottom:12px }
+	#venue .well ul.fa-ul { margin-left: -12px }
+	#venue .col-md-6 .well p { line-height:138% }
+	#venue .col-md-6 .well ul.fa-ul li { font-size:13px; margin-bottom: 10px; line-height:128% }
+}
+
+
+/*--- Mobile landscape ---*/
+@media all and (min-width: 361px) and (max-width: 480px) {
+	.block-vertical .no-top-desktop { margin-top:0 !important; padding-top: 0 !important }
+	.block-white { padding: 10px 0 20px 0 }
+	.block-light-grey { padding: 50px 0 20px 0 }
+	.block-vertical .col-md-12 h2 { font-size:36px; line-height: 112%; margin-top:0; margin-bottom: 12px }
+	.block-vertical .col-md-12 h2.arrow-before { margin-top:0 }
+	.block-white .col-md-12 h2.arrow-before { margin-top:0 }
+	.block-vertical .col-md-12 h4 { font-size:22px; margin-bottom: 36px }
+	.block-vertical .col-md-6 p.lead { font-size: 14px }
+	.block-vertical .col-md-12 p, .block-vertical .col-md-9 p,
+	.block-vertical .col-md-8 p, .block-vertical .col-md-6 p,
+	.block-vertical .col-md-4 p, .block-vertical .col-md-3 p { font-size:14px; margin-bottom: 10px }
+	.block-vertical ul { margin-bottom: 6px }
+	.block-vertical .col-md-8 ul li, .block-vertical .col-md-6 ul li,
+	.block-vertical .col-md-4 ul li, .block-vertical .col-md-3 ul li { font-size:14px; margin-bottom: 4px; line-height:128% }
+	.block-vertical .col-md-4 p.conference-price { line-height:100%; font-size:56px;color: #34495e; margin: 0 auto 12px auto }
+	.block-vertical .col-md-4 .btn-primary { font-size:18px; color:#fff;text-decoration:none; padding:12px 22px }
+	.block-vertical .col-md-6 ul.fa-ul li { color:#444  }
+
+	/* SPEAKERS ====================== */
+	#speakers { padding: 60px 0 22px 0 }
+	#speakers .col-md-12 h2.arrow-before { font-size:32px;margin-bottom:32px }
+	#speakers .col-md-3 { min-height:240px }
+	#speakers .col-md-3 .img-responsive { width: 48%;margin-bottom:12px }
+	#speakers .col-md-3 p { font-size: 14px; font-weight: normal; line-height:136%;margin-bottom:20px }
+	#speakers .col-md-3 p b { font-size: 16px; font-weight: bold }
+	#speakers .col-md-3 .well { padding: 12px 12px 4px 20px }
+	#speakers .col-md-3 .well p { margin-bottom:12px }
+
+
+	/* ATTENDEES ================= */
+	.attendees { padding: 14px 0 42px 0 }
+	.attendees .col-md-12 h2.arrow-before { font-size:32px;margin-bottom:28px }
+	.attendees p.deckhead { font-size:16px;line-height:140% }
+	.attendees #list-attendees { margin-left: 24px }
+	.attendees #list-attendees li { font-size:15px;margin-bottom:12px; margin-right:20px; line-height:130% }
+	.attendees .well ul.fa-ul { margin-left:28px }
+	.attendees .well { margin: 20px 0 0 0; padding: 12px 9px 2px 12px }
+	.attendees .well p { font-size:15px }
+	.attendees .well ul.fa-ul li { font-size:14px }
+
+	/* VENUE ================= */
+	#venue { padding: 20px 0 32px 0 }
+	#venue .col-md-12 h2.arrow-before { font-size:32px;margin-bottom:20px }
+	#venue .col-md-6 p { font-size:15px; line-height:136%}
+	#venue .well { margin: 12px 0 0 0; padding-bottom:12px }
+	#venue .well ul.fa-ul { margin-left: -12px }
+	#venue .col-md-6 .well p { line-height:138% }
+	#venue .col-md-6 .well ul.fa-ul li { font-size:15px; margin-bottom: 7px; line-height:128% }
+
+}
+
+/*--- Small tablets (sm) --*/
+@media all and (min-width: 481px) and (max-width: 767px) {
+	.block-vertical .no-top-desktop { margin-top:0 !important; padding-top: 0 !important }
+	.block-white { padding: 10px 0 20px 0 }
+	.block-light-grey { padding: 50px 0 20px 0 }
+	.block-vertical .col-md-12 h2 { font-size:36px; line-height: 112%; margin-top:0; margin-bottom: 22px }
+	.block-vertical .col-md-12 h2.arrow-before { margin-top:0 }
+	.block-white .col-md-12 h2.arrow-before { margin-top:0 }
+	.block-vertical .col-md-12 h4 { font-size:22px; margin-bottom: 36px }
+	.block-vertical .col-md-6 p.lead { font-size: 16px }
+	.block-vertical .col-md-12 p, .block-vertical .col-md-9 p,
+	.block-vertical .col-md-8 p, .block-vertical .col-md-6 p,
+	.block-vertical .col-md-4 p, .block-vertical .col-md-3 p { font-size:16px; margin-bottom: 10px }
+	.block-vertical ul { margin-bottom: 6px }
+	.block-vertical .col-md-8 ul li, .block-vertical .col-md-6 ul li,
+	.block-vertical .col-md-4 ul li, .block-vertical .col-md-3 ul li { font-size:16px; margin-bottom: 4px; line-height:128% }
+
+
+	.block-vertical .col-md-4 p.conference-price { line-height:100%; font-size:56px;color: #34495e; margin: 0 auto 12px auto }
+	.block-vertical .col-md-4 .btn-primary { font-size:18px; color:#fff;text-decoration:none; padding:12px 22px }
+
+	/* SPEAKERS ====================== */
+	#speakers { padding: 60px 0 22px 0 }
+	#speakers .col-md-12 h2.arrow-before { font-size:38px;margin-bottom:32px }
+	#speakers .col-md-3 { min-height: 260px }
+	#speakers .col-md-3 .img-responsive { width: 48%;margin-bottom:12px }
+	#speakers .col-md-3 p { font-size: 14px; font-weight: normal; line-height:136%;margin-bottom:20px }
+	#speakers .col-md-3 p b { font-size: 16px; font-weight: bold }
+	#speakers .col-md-3 .well { padding: 12px 12px 4px 20px }
+	#speakers .col-md-3 .well p { margin-bottom:12px }
+
+
+
+	/* ATTENDEES ================= */
+	.attendees { padding: 14px 0 52px 0 }
+	.attendees .col-md-12 h2.arrow-before { font-size:38px;margin-bottom:28px }
+	.attendees p.deckhead { font-size:18px;line-height:140% }
+	.attendees #list-attendees { margin-left: 26px }
+	.attendees #list-attendees li { font-size:16px;margin-bottom:12px; margin-right:20px; line-height:130% }
+	.attendees .well ul.fa-ul { margin-left:28px }
+	.attendees .well { margin: 20px 0 0 0; padding: 12px 12px 6px 14px }
+	.attendees .well p { font-size:16px }
+	.attendees .well ul.fa-ul li { font-size:15px }
+
+	/* VENUE ================= */
+	#venue { padding: 20px 0 32px 0 }
+	#venue .col-md-12 h2.arrow-before { font-size:38px;margin-bottom:20px }
+	#venue .col-md-6 p { font-size:15px; line-height:136%}
+	#venue .well { margin: 12px 0 0 0; padding-bottom:12px }
+	#venue .well ul.fa-ul { margin-left: -12px }
+	#venue .col-md-6 .well p { line-height:138% }
+	#venue .col-md-6 .well ul.fa-ul li { font-size:15px; margin-bottom: 7px; line-height:128% }
+
+}
+
+/* Smaller desktops and laptops ( multiple cols, md) */
+@media all and (min-width: 768px) and (max-width: 991px) {
+	.block-vertical .no-top-desktop { margin-top:0 !important; padding-top: 0 !important }
+	.block-white { padding: 10px 0 20px 0 }
+	.block-light-grey { padding: 50px 0 20px 0 }
+	.block-vertical .col-md-12 h2 { font-size:36px; line-height: 112%; margin-top:0; margin-bottom: 22px }
+	.block-vertical .col-md-12 h2.arrow-before { margin-top:0 }
+	.block-white .col-md-12 h2.arrow-before { margin-top:0 }
+	.block-vertical .col-md-12 h4 { font-size:22px; margin-bottom: 36px }
+	.block-vertical .col-md-6 p.lead { font-size: 16px }
+	.block-vertical .col-md-12 p, .block-vertical .col-md-9 p,
+	.block-vertical .col-md-8 p, .block-vertical .col-md-6 p,
+	.block-vertical .col-md-4 p, .block-vertical .col-md-3 p { font-size:16px; margin-bottom: 10px }
+	.block-vertical ul { margin-bottom: 6px }
+	.block-vertical .col-md-8 ul li, .block-vertical .col-md-6 ul li,
+	.block-vertical .col-md-4 ul li, .block-vertical .col-md-3 ul li { font-size:16px; margin-bottom: 4px; line-height:128% }
+
+
+	.block-vertical .col-md-4 p.conference-price { line-height:100%; font-size:56px;color: #34495e; margin: 0 auto }
+	.block-vertical .col-md-4 .btn-primary { font-size:20px; color:#fff;text-decoration:none; padding:12px 22px }
+
+
+	/* SPEAKERS ================= */
+	#speakers { padding: 30px 0 32px 0 }
+	#speakers .col-md-12 h2.arrow-before { font-size:36px;  margin-top:42px }
+	#speakers .col-md-3 .img-responsive { width: 74%; margin-bottom:12px }
+	#speakers .col-md-3 p b { font-size: 16px; font-weight: bold; line-height:136% }
+	#speakers .col-md-3 p { font-size: 14px; font-weight: normal }
+
+	#speakers .col-md-3 .well { padding: 12px 12px 4px 20px }
+	#speakers .col-md-3 .well p { margin-bottom:12px }
+
+
+	/* ATTENDEES ================= */
+	.attendees { padding: 20px 0 42px 0 }
+	.attendees .col-md-12 h2.arrow-before { font-size:38px;margin-bottom:30px }
+	.attendees p.deckhead { font-size:18px;line-height:140% }
+	.attendees #list-attendees { margin-left: 26px }
+	.attendees #list-attendees li { font-size:16px;margin-bottom:12px; margin-right:20px; line-height:130% }
+	.attendees .well ul.fa-ul { margin-left:28px }
+	.attendees .well { margin: 0; padding: 12px 12px 6px 14px }
+	.attendees .well p { font-size:15px; line-height:132% }
+	.attendees .well ul.fa-ul li { font-size:14px; line-height:126%;margin-bottom:8px }
+
+	/* VENUE ================= */
+	#venue { padding: 40px 0 32px 0 }
+	#venue .col-md-12 h2.arrow-before { font-size:44px;margin-bottom:32px }
+	#venue .col-md-6 p { font-size:16px; line-height:136%}
+	#venue .well { margin: 0; padding-bottom:12px }
+	#venue .well ul.fa-ul { margin-left: -12px }
+	#venue .col-md-6 .well p { line-height:138% }
+	#venue .col-md-6 .well ul.fa-ul li { font-size:15px; margin-bottom: 7px; line-height:128% }
+}
+
+
+
+/* Less small desktops and laptops (lg) ----------- */
+@media only screen and (min-width : 992px) and (max-width: 1024px) {
+	.block-vertical .no-top-desktop { margin-top:0 !important; padding-top: 0 !important }
+	.block-white { padding: 10px 0 20px 0 }
+	.block-light-grey { padding: 50px 0 20px 0 }
+	.block-vertical .col-md-12 h2 { font-size:42px; line-height: 112%; margin-top:0; margin-bottom: 32px }
+	.block-vertical .col-md-12 h2.arrow-before { margin-top:0 }
+	.block-white .col-md-12 h2.arrow-before { margin-top:0 }
+	.block-vertical .col-md-12 h4 { font-size:22px; margin-bottom: 36px }
+	.block-vertical .col-md-6 p.lead { font-size: 18px }
+	.block-vertical .col-md-12 p, .block-vertical .col-md-9 p, .block-vertical .col-md-6 p,
+	.block-vertical .col-md-4 p, .block-vertical .col-md-3 p { font-size:16px; margin-bottom: 10px }
+	.block-vertical ul { margin-bottom: 6px }
+	.block-vertical .col-md-6 ul li,
+	.block-vertical .col-md-4 ul li, .block-vertical .col-md-3 ul li { font-size:16px; margin-bottom: 4px; line-height:128% }
+
+	/* SPEAKERS ================= */
+	#speakers { padding: 40px 0 32px 0 }
+	#speakers .col-md-12 h2.arrow-before { font-size:42px;  margin-top:42px }
+	#speakers .col-md-3 .img-responsive { width: 68%; margin-bottom:12px }
+	#speakers .col-md-3 p b { font-size: 18px; font-weight: bold; line-height:136% }
+	#speakers .col-md-3 p { font-size: 15px; font-weight: normal }
+
+	#speakers .col-md-3 .well { padding: 12px 12px 4px 20px }
+	#speakers .col-md-3 .well p { margin-bottom:12px }
+
+
+	/* ATTENDEES ================= */
+	.attendees { padding: 20px 0 42px 0 }
+	.attendees .col-md-12 h2.arrow-before { font-size:38px;margin-bottom:30px }
+	.attendees p.deckhead { font-size:18px;line-height:140% }
+	.attendees #list-attendees { margin-left: 26px }
+	.attendees #list-attendees li { font-size:16px;margin-bottom:12px; margin-right:20px; line-height:130% }
+	.attendees .well ul.fa-ul { margin-left:28px }
+	.attendees .well { margin: 0; padding: 12px 12px 6px 14px }
+	.attendees .well p { font-size:15px; line-height:132% }
+	.attendees .well ul.fa-ul li { font-size:14px; line-height:126%; margin-bottom:8px }
+
+	/* VENUE ================= */
+	#venue { padding: 40px 0 42px 0 }
+	#venue .col-md-12 h2.arrow-before { font-size:44px;margin-bottom:42px }
+	#venue .col-md-6 p { font-size:17px; line-height:136%}
+	#venue .well { margin: 0; padding-bottom:6px }
+	#venue .well ul.fa-ul { margin-left: -12px }
+	#venue .col-md-6 .well p { line-height:138% }
+	#venue .col-md-6 .well ul.fa-ul li { font-size:15px; margin-bottom: 7px; line-height:128% }
+}
+
+
+/* Popular desktops and laptops ----------- */
+@media only screen and (min-width: 1025px) and (max-width: 1223px) {
+	.block-white { padding: 40px 0 40px 0 }
+	.block-light-grey { padding: 50px 0 50px 0 }
+	.block-vertical .col-md-12 h2 { font-size:48px; line-height: 112%; margin-top:0; margin-bottom: 32px }
+	.block-vertical .col-md-12 h2.arrow-before { margin-top:0 }
+
+	.block-vertical .col-md-4 p.conference-price { line-height:100%; font-size:56px;color: #34495e; margin: 0 auto }
+	.block-vertical .col-md-4 .btn-primary { font-size:22px; color:#fff;text-decoration:none; padding:12px 22px }
+
+	.block-vertical .col-md-6 p.lead { margin:-12px 0 -20px 0; font-size: 16px }
+	.block-vertical .col-md-12 p,
+	.block-vertical .col-md-9 p,
+	.block-vertical .col-md-6 p,
+	.block-vertical .col-md-4 p,
+	.block-vertical .col-md-3 p { font-size:16px; margin-bottom: 12px }
+
+	.block-vertical ul { margin-bottom: 6px }
+	.block-vertical .col-md-6 ul li { font-size:16px; margin-bottom: 4px; line-height:128%; color: green }
+
+	/* SPEAKERS ================= */
+	#speakers { padding: 40px 0 32px 0 }
+	#speakers .col-md-12 h2.arrow-before { font-size:42px;  margin-top:42px }
+	#speakers .col-md-3 .img-responsive { width: 68%; margin-bottom:10px }
+	#speakers .col-md-3 p b { font-size: 18px; font-weight: bold; line-height:136% }
+	#speakers .col-md-3 p { font-size: 15px; font-weight: normal }
+
+	#speakers .col-md-3 .well { padding: 12px 12px 4px 20px }
+	#speakers .col-md-3 .well p { margin-bottom:12px }
+
+
+
+	/* ATTENDEES ================= */
+	.attendees { padding: 20px 0 40px 0 }
+	.attendees .col-md-12 h2.arrow-before  { font-size:42px;margin-bottom:48px }
+	.attendees p.deckhead { font-size:18px;line-height:140% }
+	.attendees #list-attendees { margin-left: 28px }
+	.attendees #list-attendees li i { margin-top:4px  }
+	.attendees #list-attendees li { font-size:17px;margin-bottom:16px; margin-right:20px; line-height:130% }
+	.attendees .well ul.fa-ul { margin-left:28px }
+	.attendees .well p { font-size:17px; line-height:126% }
+	.attendees .well ul.fa-ul li { font-size:15px }
+
+	/* VENUE ================= */
+	#venue { padding: 30px 0 52px 0 }
+	#venue .col-md-12 h2.arrow-before { font-size:44px;margin-bottom:42px }
+	#venue .col-md-6 p { font-size:17px; line-height:136%}
+	#venue .well { margin: 0; padding-bottom:6px;padding-left:32px }
+	#venue .well ul.fa-ul { margin-left: -12px }
+	#venue .col-md-6 .well p { line-height:138% }
+	#venue .col-md-6 .well ul.fa-ul li { font-size:15px; margin-bottom: 7px; line-height:128% }
+
+}
+
+
+/* Popular desktops and laptops ----------- */
+@media all and  (min-width : 1224px) and (max-width: 1440px) {
+	.block-white { padding: 40px 0 40px 0 }
+	.block-light-grey { padding: 50px 0 50px 0 }
+	.block-vertical .col-md-12 h2 { font-size:48px; line-height: 112%; margin-top:0; margin-bottom: 32px }
+	.block-vertical .col-md-12 h2.arrow-before { margin-top:0 }
+
+	.block-vertical .col-md-4 p.conference-price { line-height:100%; font-size:56px;color: #34495e; margin: 0 auto }
+	.block-vertical .col-md-4 .btn-primary { font-size:22px; color:#fff;text-decoration:none; padding:12px 22px }
+
+	.block-vertical .col-md-6 p.lead { margin:-12px 0 -20px 0; font-size: 16px }
+	.block-vertical .col-md-12 p,
+	.block-vertical .col-md-9 p,
+	.block-vertical .col-md-6 p,
+	.block-vertical .col-md-4 p,
+	.block-vertical .col-md-3 p { font-size:16px; margin-bottom: 12px }
+
+	.block-vertical ul { margin-bottom: 6px }
+	.block-vertical .col-md-6 ul li { font-size:16px; margin-bottom: 4px; line-height:128%; color: green }
+
+	/* SPEAKERS ================= */
+	#speakers { padding: 40px 0 32px 0 }
+	#speakers .col-md-12 h2.arrow-before { font-size:50px;  margin-top:42px }
+	#speakers .col-md-3 .img-responsive { width: 64% }
+	#speakers .col-md-3 p { font-size: 15px; font-weight: normal; line-height:136% }
+	#speakers .col-md-3 p b { font-size: 17px; font-weight: bold }
+
+	#speakers .col-md-3 .well { padding: 12px 12px 4px 20px }
+	#speakers .col-md-3 .well p { margin-bottom:12px }
+
+	/* ATTENDEES ================= */
+	.attendees { padding: 20px 0 40px 0 }
+	.attendees .col-md-12 h2.arrow-before  { font-size:52px;margin-bottom:48px }
+	.attendees p.deckhead { font-size:20px;line-height:140% }
+	.attendees #list-attendees { margin-left: 28px }
+	.attendees #list-attendees li i { margin-top:4px  }
+	.attendees #list-attendees li { font-size:20px;margin-bottom:16px; margin-right:20px; line-height:130% }
+	.attendees .well ul.fa-ul { margin-left:28px }
+	.attendees .well p { font-size:18px }
+	.attendees .well ul.fa-ul li { font-size:17px }
+
+	/* VENUE ================= */
+	#venue { padding: 50px 0 42px 0 }
+	#venue .col-md-12 h2.arrow-before { font-size:50px;margin-bottom:42px }
+	#venue .col-md-6 p { font-size:17px; line-height:136%}
+	#venue .well { margin: 0; padding-bottom:6px;padding-left:32px }
+	#venue .well ul.fa-ul { margin-left: -12px }
+	#venue .col-md-6 .well p { line-height:138% }
+	#venue .col-md-6 .well ul.fa-ul li { font-size:15px; margin-bottom: 7px; line-height:128% }
+}
+
+
+
+/* Larger screens ----------- */
+@media only screen and (min-width: 1441px) {
+	.block-white { padding: 40px 0 40px 0 }
+	.block-light-grey { padding: 50px 0 50px 0 }
+	.block-vertical .col-md-12 h2 { font-size:48px; line-height: 112%; margin-top:0; margin-bottom: 32px }
+	.block-vertical .col-md-12 h2.arrow-before { margin-top:0 }
+
+	.block-vertical .col-md-4 p.conference-price { line-height:100%; font-size:56px;color: #34495e; margin: 0 auto }
+	.block-vertical .col-md-4 .btn-primary { font-size:22px; color:#fff;text-decoration:none; padding:12px 22px }
+
+	.block-vertical .col-md-6 p.lead { margin:-12px 0 -20px 0; font-size: 16px }
+	.block-vertical .col-md-12 p,
+	.block-vertical .col-md-9 p,
+	.block-vertical .col-md-6 p,
+	.block-vertical .col-md-4 p,
+	.block-vertical .col-md-3 p { font-size:16px; margin-bottom: 12px }
+
+	.block-vertical ul { margin-bottom: 6px }
+	.block-vertical .col-md-6 ul li { font-size:16px; margin-bottom: 4px; line-height:128%; color: green }
+
+	/* SPEAKERS ================= */
+	#speakers { padding: 40px 0 32px 0 }
+	#speakers .col-md-12 h2.arrow-before { font-size:50px;  margin-top:42px }
+	#speakers .col-md-3 .img-responsive { width: 68%; margin-bottom:10px }
+	#speakers .col-md-3 p b { font-size: 18px; font-weight: bold; line-height:136% }
+	#speakers .col-md-3 p { font-size: 15px; font-weight: normal }
+
+	#speakers .col-md-3 .well { padding: 12px 12px 4px 20px }
+	#speakers .col-md-3 .well p { margin-bottom:12px }
+
+
+	/* ATTENDEES ================= */
+	.attendees { padding: 20px 0 40px 0 }
+	.attendees .col-md-12 h2.arrow-before  { font-size:52px;margin-bottom:48px}
+	.attendees p.deckhead { font-size:20px;line-height:140% }
+	.attendees #list-attendees { margin-left: 28px }
+	.attendees #list-attendees li i { margin-top:4px  }
+	.attendees #list-attendees li { font-size:20px;margin-bottom:16px; margin-right:20px; line-height:130% }
+	.attendees .well ul.fa-ul { margin-left:28px }
+	.attendees .well p { font-size:18px }
+	.attendees .well ul.fa-ul li { font-size:17px }
+
+	/* VENUE ================= */
+	#venue { padding: 50px 0 42px 0 }
+	#venue .col-md-12 h2.arrow-before { font-size:50px; margin-bottom:42px }
+	#venue .col-md-6 p { font-size:17px; line-height:136%}
+	#venue .well { margin: 0; padding-bottom:6px;padding-left:32px }
+	#venue .well ul.fa-ul { margin-left: -12px }
+	#venue .col-md-6 .well p { line-height:138% }
+	#venue .col-md-6 .well ul.fa-ul li { font-size:15px; margin-bottom: 7px; line-height:128% }
+}
+
+
+#agenda .row-grey { background: #95a5a6; text-align:center }
+#agenda .row-grey .col-md-12 p { margin:0 auto; color: #fff; line-height: 136% }
+
+#agenda .row-divider { border-bottom: solid 1px #005581 }
+#agenda .row-divider-no-border { border-bottom-width:0  }
+#agenda .well-agenda { background: transparent; padding-left:0; border: solid 1px transparent; border-radius: 0}
+#agenda .well-agenda .col-md-2 { text-align:left }
+#agenda .well-agenda .col-md-5 p em { line-height:130% }
+
+#agenda .col-md-2 p { display: inline-block; color: #fff; background: #2980b9; padding: 2px 4px }
+#agenda .col-md-5 p em, #agenda .col-md-10 p { color: #2980b9 }
+#agenda .col-md-5 p b { font-weight:bold; color: #34495e }
+#agenda .col-md-5 p { color: #7f8c8d; font-weight:normal }
+
+#agenda .row-grey .col-md-2 p,  #agenda .row-grey .col-md-10 p { color:#fff; line-height:100%; margin: 0 }
+
+
+/*--- Mobile portrait ---*/
+@media all and (max-width: 320px) {
+	#agenda { padding: 40px 0 50px 0 }
+	#agenda .col-md-12 h2 { margin-top:20px; margin-bottom:32px }
+	#agenda .row-grey { padding: 12px 0;margin-bottom:12px }
+	#agenda .row-grey .col-md-12 p { font-size:15px  }
+
+	#agenda .row-divider { padding-top:4px; padding-bottom:4px; margin-bottom:4px }
+	#agenda .row-divider-no-border { padding-top:12px; padding-bottom:12px  }
+
+	#agenda .col-md-2 p { font-size:14px; padding:4px 12px }
+	#agenda .col-md-5 p b { font-size:14px; }
+	#agenda .col-md-5 p { font-size:13px; line-height:136% }
+	#agenda .col-md-5 p em { font-size:15px;font-weight:bold;margin-bottom:0 }
+	#agenda .col-md-10 p { font-size:14px; }
+}
+
+
+/*--- Mobile landscape ---*/
+@media all and (max-width: 480px) and (min-width: 321px) {
+	#agenda { padding: 40px 0 50px 0 }
+	#agenda .col-md-12 h2 { margin-top:20px; margin-bottom:32px  }
+	#agenda .row-grey { padding: 12px 0; margin-bottom:12px }
+	#agenda .row-grey .col-md-12 p { font-size:15px }
+
+	#agenda .row-divider { padding-top:4px; padding-bottom:4px; margin-bottom:12px }
+	#agenda .row-divider-no-border { padding-top:12px; padding-bottom:12px  }
+
+	#agenda .col-md-2 p { font-size:14px; padding:4px 12px }
+	#agenda .col-md-5 p b { font-size:14px; }
+	#agenda .col-md-5 p { font-size:14px; line-height:136% }
+	#agenda .col-md-5 p em { font-size:15px;font-weight:bold;margin-bottom:0 }
+	#agenda .col-md-10 p { font-size:14px; }}
+
+/*--- Small tablets (sm) --*/
+@media all and (max-width: 767px) and (min-width: 481px) {
+	#agenda { padding: 40px 0 50px 0 }
+	#agenda .col-md-12 h2 { margin-top:20px; margin-bottom:32px  }
+	#agenda .row-grey { padding: 14px 0;margin-bottom:12px }
+	#agenda .row-grey .col-md-12 p { font-size:16px }
+
+
+	#agenda .row-divider { padding-top:4px; padding-bottom:4px; margin-bottom:4px }
+	#agenda .row-divider-no-border { padding-top:12px; padding-bottom:12px  }
+
+	#agenda .col-md-2 p { font-size:14px;  padding:4px 12px }
+	#agenda .col-md-5 p b { font-size:16px; }
+	#agenda .col-md-5 p { font-size:14px; line-height:136% }
+	#agenda .col-md-5 p em { font-size:16px;font-weight:bold;margin-bottom:0 }
+	#agenda .col-md-10 p { font-size:14px; }
+}
+
+/* Smaller desktops and laptops ( multiple cols, md) */
+@media all and (max-width: 991px) and (min-width: 768px) {
+	#agenda { padding: 40px 0 50px 0 }
+	#agenda .col-md-12 h2 { margin-top:20px; margin-bottom:42px  }
+	#agenda .row-grey { padding: 14px 0;margin-bottom:12px }
+	#agenda .row-grey .col-md-12 p { font-size:17px }
+
+	#agenda .row-divider { padding-top:4px; padding-bottom:4px; margin-bottom:4px }
+	#agenda .row-divider-no-border { padding-top:12px; padding-bottom:12px  }
+
+	#agenda .well-agenda.left-side { border-right: solid 1px #444 }
+
+	#agenda .col-md-2 p { font-size:15px;  padding:4px 12px}
+	#agenda .col-md-5 p b { font-size:17px; }
+	#agenda .col-md-5 p { font-size:14px; line-height:136% }
+	#agenda .col-md-5 p em { font-size:17px;font-weight:bold;margin-bottom:0 }
+
+	#agenda .well-agenda .col-md-2 p { font-size:12px;  padding:2px 8px}
+	#agenda .well-agenda .col-md-5 p b { font-size:15px; }
+	#agenda .well-agenda .col-md-5 p { font-size:14px; line-height:136% }
+	#agenda .well-agenda .col-md-5 p em { font-size:15px;font-weight:bold;margin-bottom:0 }
+
+}
+
+/* Less small desktops and laptops (lg) ----------- */
+@media only screen and (max-width: 1024px) and (min-width : 992px) {
+	#agenda { padding: 40px 0 50px 0 }
+	#agenda .col-md-12 h2 { margin-top:30px; margin-bottom:42px  }
+	#agenda .row-grey { padding: 15px 0;margin-bottom:20px }
+	#agenda .row-grey .col-md-12 p { font-size:18px }
+
+	#agenda .row-divider { padding-top:8px; padding-bottom:8px; margin-bottom:8px }
+	#agenda .row-divider-no-border { padding-top:12px; padding-bottom:12px; margin-bottom:20px  }
+
+	#agenda .well-agenda.left-side { border-right: solid 1px #444 }
+
+	#agenda .col-md-2 p { font-size:15px;  padding:4px 12px}
+	#agenda .col-md-5 p b { font-size:18px; }
+	#agenda .col-md-5 p { font-size:15px; line-height:136% }
+	#agenda .col-md-5 p em { font-size:18px;font-weight:bold;margin-bottom:0 }
+
+	#agenda .well-agenda .col-md-2 p { font-size:12px;  padding:2px 8px}
+	#agenda .well-agenda .col-md-5 p b { font-size:16px; }
+	#agenda .well-agenda .col-md-5 p { font-size:14px; line-height:136% }
+	#agenda .well-agenda .col-md-5 p em { font-size:16px;font-weight:bold;margin-bottom:0 }
+}
+
+/* Popular desktops and laptops ----------- */
+@media all and  (min-width : 1025px) and (max-width: 1223px) {
+	#agenda { padding: 40px 0 50px 0 }
+	#agenda .col-md-12 h2 { margin-top:30px; margin-bottom:42px  }
+	#agenda .row-grey { padding: 15px 0;margin-bottom:20px }
+	#agenda .row-grey .col-md-12 p { font-size:18px }
+
+	#agenda .row-divider { padding-top:12px; padding-bottom:12px; margin-bottom:12px }
+	#agenda .row-divider-no-border { padding-top:12px; padding-bottom:12px; border-bottom-width:0  }
+
+	#agenda .well-agenda.left-side { border-right: solid 2px #444 }
+
+	#agenda .col-md-2 p { font-size:15px;  padding:4px 12px}
+	#agenda .col-md-5 p b { font-size:18px; }
+	#agenda .col-md-5 p { font-size:15px; line-height:136% }
+	#agenda .col-md-5 p em { font-size:18px;font-weight:bold;margin-bottom:0 }
+
+	#agenda .well-agenda .col-md-2 p { font-size:14px;  padding:2px 8px}
+	#agenda .well-agenda .col-md-5 p b { font-size:16px; }
+	#agenda .well-agenda .col-md-5 p { font-size:14px; line-height:136% }
+	#agenda .well-agenda .col-md-5 p em { font-size:16px;font-weight:bold;margin-bottom:0 }
+}
+
+
+/* Popular desktops and laptops ----------- */
+@media all and  (min-width : 1224px) and (max-width: 1336px) {
+	#agenda { padding: 40px 0 50px 0 }
+	#agenda .col-md-12 h2 { margin-top:30px; margin-bottom:42px  }
+	#agenda .row-grey { padding: 15px 0;margin-bottom:20px }
+	#agenda .row-grey .col-md-12 p { font-size:18px }
+
+	#agenda .row-divider { padding-top:12px; padding-bottom:12px; margin-bottom:12px }
+	#agenda .row-divider-no-border { padding-top:12px; padding-bottom:12px; border-bottom-width:0  }
+
+
+	#agenda .col-md-2 p { font-size:16px;  padding:4px 12px}
+	#agenda .col-md-5 p b { font-size:18px; }
+	#agenda .col-md-5 p { font-size:16px; line-height:136% }
+	#agenda .col-md-5 p em { font-size:19px;font-weight:bold;margin-bottom:0 }
+
+	#agenda .well-agenda.left-side { border-right: solid 2px #444 }
+
+	#agenda .well-agenda .col-md-2 p { font-size:14px;  padding:2px 8px}
+	#agenda .well-agenda .col-md-5 p b { font-size:17px; }
+	#agenda .well-agenda .col-md-5 p { font-size:15px; line-height:136% }
+	#agenda .well-agenda .col-md-5 p em { font-size:17px;font-weight:bold;margin-bottom:0 }
+}
+
+@media all and  (min-width: 1337px) and (max-width: 1440px) {
+	#agenda { padding: 40px 0 50px 0 }
+	#agenda .col-md-12 h2 { margin-top:30px; margin-bottom:42px  }
+	#agenda .row-grey { padding: 12px 0;margin-bottom:12px }
+	#agenda .row-grey .col-md-12 p { font-size:18px }
+
+	#agenda .row-divider { padding-top:12px; padding-bottom:12px; margin-bottom:12px }
+	#agenda .row-divider-no-border { padding-top:12px; padding-bottom:12px; border-bottom-width:0  }
+
+	#agenda .well-agenda.left-side { border-right: solid 2px #444 }
+
+	#agenda .col-md-2 p { font-size:16px;  padding:4px 12px}
+	#agenda .col-md-5 p b { font-size:18px; }
+	#agenda .col-md-5 p { font-size:16px; line-height:136% }
+	#agenda .col-md-5 p em { font-size:19px;font-weight:bold;margin-bottom:0 }
+
+	#agenda .well-agenda .col-md-2 p { font-size:14px;  padding:2px 8px}
+	#agenda .well-agenda .col-md-5 p b { font-size:17px; }
+	#agenda .well-agenda .col-md-5 p { font-size:16px; line-height:136% }
+	#agenda .well-agenda .col-md-5 p em { font-size:17px;font-weight:bold;margin-bottom:0 }
+}
+
+/* Larger screens ----------- */
+@media only screen and (min-width: 1441px) {
+	#agenda { padding: 40px 0 50px 0 }
+	#agenda .col-md-12 h2 { margin-top:30px; margin-bottom:42px  }
+	#agenda .row-grey { padding: 15px 0;margin-bottom:20px }
+	#agenda .row-grey .col-md-12 p { font-size:18px; padding: 4px 0  }
+
+	#agenda .row-divider { padding-top:12px; padding-bottom:12px; margin-bottom:12px }
+	#agenda .row-divider-no-border { padding-top:12px; padding-bottom:12px; border-bottom-width:0  }
+
+	#agenda .well-agenda.left-side { border-right: solid 2px #444 }
+
+	#agenda .col-md-2 p { font-size:16px;  padding:4px 12px}
+	#agenda .col-md-5 p b { font-size:18px; }
+	#agenda .col-md-5 p { font-size:16px; line-height:136% }
+	#agenda .col-md-5 p em { font-size:19px;font-weight:bold;margin-bottom:0 }
+
+	#agenda .well-agenda .col-md-2 p { font-size:14px;  padding:2px 8px}
+	#agenda .well-agenda .col-md-5 p b { font-size:17px; }
+	#agenda .well-agenda .col-md-5 p { font-size:16px; line-height:136% }
+	#agenda .well-agenda .col-md-5 p em { font-size:17px;font-weight:bold;margin-bottom:0 }
+}
+
+
+
+/* REGISTER ======================================================== */
+
+section.section-parallax-bg {
+	position:relative; overflow: hidden; width: 100%; text-align:center;
+	background-repeat:     no-repeat;
+	background-attachment: fixed;
+	background-position:   center top;
+    padding: 0 !important;
+	  /*      background-size: cover;
+	   -moz-background-size: cover;
+	-webkit-background-size: cover;
+	 -o-background-size: cover;*/
+}
+
+@media all and (max-width: 767px) {
+	section.section-parallax-bg {
+		background-position: center center;
+		background-attachment:scroll;
+				background-size: auto;
+		   -moz-background-size: auto;
+		-webkit-background-size: auto;
+			 -o-background-size: auto;
+	}
+}
+
+@media all and (min-width: 768px) {
+	section.section-parallax-bg {
+		background-position: center center;
+		background-attachment:fixed;
+					background-size: cover;
+		   -moz-background-size: cover;
+		-webkit-background-size: cover;
+			 -o-background-size: cover;
+
+	}
+}
+
+
+section.section-parallax-bg .col-md-12 h1,
+section.section-parallax-bg .col-md-12 h2 {
+	margin-left:auto; margin-right:auto;color:#fff;
+	text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+	width:80%; min-width:300px; max-width:1140px;
+	font-family: 'Roboto', Arial, sans-sans-serif;
+}
+
+.parallax-bg-img-1 { background-image: url('../img/bg-hero-ittc16-en.jpg') }
+
+
+.overlay { width: 100%; overflow:hidden; min-height:300px; height:100% }
+.overlay-black { background-color: rgba(0, 0, 0, .35) }
+
+section.section-parallax-bg .col-md-12 h2 { line-height: 100%;font-weight:bold; font-family: "Open Sans", Arial, sans-serif; }
+section.section-parallax-bg .col-md-12 h2 span { font-family: "Open Sans", Arial, sans-serif; }
+
+
+
+section.section-parallax-bg .col-md-12 h3 {
+	font-family: 'Open Sans', Arial, sans-sans-serif; font-size:18px; background: #005581; line-height:100%;
+	padding: 3px 26px 3px 26px; display:inline-block;color:#fff;
+}
+
+.block-day .col-md-12 .btn-danger { background: #0084a9; border-color: #0084a9; }
+
+
+	/*--- Mobile portrait ---*/
+	@media all and (max-width: 320px) {
+		section.section-parallax-bg {  height: 350px }
+		section.section-parallax-bg .overlay {  height: 350px;padding: 10px 0 0 0 }
+		section.section-parallax-bg .col-md-12 h1 { font-size: 54px }
+		section.section-parallax-bg .col-md-12 h2 { font-size: 28px; font-weight:bold; line-height:112%; letter-spacing:-1px}
+		section.section-parallax-bg .col-md-12 h3 i { display:inline-block;font-size: 15px; padding-right:6px}
+		section.section-parallax-bg .col-md-12 h3 { display:inline-block; font-size:15px;
+			line-height:142%;margin-bottom: 1px; padding:6px 6px }
+		section.section-parallax-bg .col-md-12 h2 span { font-size: 20px !important }
+	}
+
+
+	/*--- Mobile portrait ---*/
+	@media all and (min-width: 321px) and (max-width: 360px) {
+		section.section-parallax-bg {  height: 350px }
+		section.section-parallax-bg .overlay {  height: 350px;padding: 10px 0 0 0 }
+		section.section-parallax-bg .col-md-12 h1 { font-size: 54px }
+		section.section-parallax-bg .col-md-12 h2 { font-size: 28px; font-weight:bold; line-height:112%; letter-spacing:-1px}
+		section.section-parallax-bg .col-md-12 h3 i { display:inline-block;font-size: 15px; padding-right:6px}
+		section.section-parallax-bg .col-md-12 h3 { display:inline-block; font-size:15px;  line-height:142%;margin-bottom: 1px; padding:6px 6px }
+		section.section-parallax-bg .col-md-12 h2 span { font-size: 20px !important }
+	}
+
+	/*--- Mobile landscape ---*/
+	@media all and (min-width: 361px) and (max-width: 480px) {
+		section.section-parallax-bg {  height: 350px }
+		section.section-parallax-bg .overlay {  height: 350px;padding: 10px 0 0 0 }
+		section.section-parallax-bg .col-md-12 h1 { font-size: 54px }
+		section.section-parallax-bg .col-md-12 h2 { font-size: 28px; font-weight:bold; line-height:112%; letter-spacing:-1px}
+		section.section-parallax-bg .col-md-12 h3 i { display:inline-block;font-size: 16px; padding-right:6px}
+		section.section-parallax-bg .col-md-12 h3 { display:inline-block; font-size:16px;  line-height:142%;margin-bottom: 1px; padding:6px 6px }
+		section.section-parallax-bg .col-md-12 h2 span { font-size: 22px !important }
+	}
+
+	/*--- Small tablets (sm) --*/
+	@media all and (min-width: 481px) and (max-width: 767px) {
+		section.section-parallax-bg {  height: 350px }
+		section.section-parallax-bg .overlay {  height: 350px;padding: 10px 0 0 0 }
+		section.section-parallax-bg .col-md-12 h1 { font-size: 54px }
+		section.section-parallax-bg .col-md-12 h2 { font-size: 28px; font-weight:bold; line-height:112% }
+		section.section-parallax-bg .col-md-12 h3 i { display:inline-block;font-size: 16px; padding-right:6px}
+		section.section-parallax-bg .col-md-12 h3 { display:inline-block; font-size:16px;  line-height:142%;margin-bottom: 1px; padding:6px 10px }
+		section.section-parallax-bg .col-md-12 h2 span { font-size: 22px !important }
+	}
+
+	/* Smaller desktops and laptops ( multiple cols, md) */
+	@media all and  (min-width: 768px) and (max-width: 991px) {
+		section.section-parallax-bg {  height: 400px }
+		section.section-parallax-bg .overlay {  height: 400px;padding: 52px 0 0 0 }
+		section.section-parallax-bg .col-md-12 h1 { font-size: 72px }
+		section.section-parallax-bg .col-md-12 h2 { font-size: 42px; font-weight:bold; line-height:112% }
+		section.section-parallax-bg .col-md-12 h3 i { display:inline-block;font-size: 20px; padding-right:6px}
+		section.section-parallax-bg .col-md-12 h3 { display:inline-block; font-size:20px;  line-height:142%;margin-bottom: 1px; padding:6px 20px }
+		section.section-parallax-bg .col-md-12 h2 span { font-size: 24px }
+
+	}
+
+	/* Less small desktops and laptops (lg) ----------- */
+	@media  all and   (min-width : 992px) and (max-width: 1024px)  {
+		section.section-parallax-bg {  height: 460px }
+		section.section-parallax-bg .overlay {  height: 460px;padding: 52px 0 0 0 }
+		section.section-parallax-bg .col-md-12 h1 { font-size: 84px }
+		section.section-parallax-bg .col-md-12 h2 { font-size: 32px; font-weight:bold; line-height:112%;padding-top:40px }
+		section.section-parallax-bg .col-md-12 h3 i { display:inline-block;font-size: 22px; padding-right:6px}
+		section.section-parallax-bg .col-md-12 h3 { display:inline-block; font-size:20px;  line-height:142%;margin-bottom: 1px; padding:8px 40px }
+		section.section-parallax-bg .col-md-12 h2 span { font-size: 24px }
+
+	}
+
+	@media  all and   (min-width : 1025px) and (max-width: 1279px)  {
+		section.section-parallax-bg {  height: 480px }
+		section.section-parallax-bg .overlay {  height: 480px;padding: 52px 0 0 0 }
+		section.section-parallax-bg .col-md-12 h1 { font-size: 84px }
+		section.section-parallax-bg .col-md-12 h2 { font-size: 42px; font-weight:bold; line-height:112%;padding-top:40px }
+		section.section-parallax-bg .col-md-12 h3 i { display:inline-block;font-size: 22px; padding-right:6px}
+		section.section-parallax-bg .col-md-12 h3 { display:inline-block; font-size:20px;  line-height:142%;margin-bottom: 1px; padding:10px 40px }
+		section.section-parallax-bg .col-md-12 h2 span { font-size: 32px }
+	}
+
+	@media  all and   (min-width : 1280px) and (max-width: 1336px)  {
+		section.section-parallax-bg {  height: 500px }
+		section.section-parallax-bg .overlay {  height: 500px;padding: 52px 0 0 0 }
+		section.section-parallax-bg .col-md-12 h1 { font-size: 84px }
+		section.section-parallax-bg .col-md-12 h2 { font-size: 52px; font-weight:bold; line-height:112%;padding-top:40px }
+		section.section-parallax-bg .col-md-12 h3 i { display:inline-block;font-size: 22px; padding-right:6px}
+		section.section-parallax-bg .col-md-12 h3 { display:inline-block; font-size:20px;  line-height:142%;margin-bottom: 1px; padding:10px 40px }
+		section.section-parallax-bg .col-md-12 h2 span { font-size: 34px }
+
+	}
+
+	@media  all and   (min-width: 1337px) and (max-width: 1440px) {
+		section.section-parallax-bg {  height: 500px }
+		section.section-parallax-bg .overlay {  height: 500px;padding: 52px 0 0 0 }
+		section.section-parallax-bg .col-md-12 h1 { font-size: 84px }
+		section.section-parallax-bg .col-md-12 h2 { font-size: 58px; font-weight:bold; line-height:112%;padding-top:40px }
+		section.section-parallax-bg .col-md-12 h3 i { display:inline-block;font-size: 22px; padding-right:6px}
+		section.section-parallax-bg .col-md-12 h3 { display:inline-block; font-size:20px;  line-height:142%;margin-bottom: 1px; padding:10px 42px }
+		section.section-parallax-bg .col-md-12 h2 span { font-size: 34px }
+
+	}
+
+	/* Larger screens ----------- */
+	@media  all and   (min-width: 1441px) {
+		section.section-parallax-bg {  height: 540px }
+		section.section-parallax-bg .overlay {  height: 540px;padding: 52px 0 0 0; }
+		section.section-parallax-bg .col-md-12 h1 { font-size: 84px }
+		section.section-parallax-bg .col-md-12 h2 { font-size: 58px; font-weight:bold; line-height:112%;padding-top:40px }
+		section.section-parallax-bg .col-md-12 h3 i { display:inline-block;font-size: 22px; padding-right:6px}
+		section.section-parallax-bg .col-md-12 h3 { display:inline-block; font-size:20px;  line-height:142%;margin-bottom: 1px; padding:10px 42px }
+		section.section-parallax-bg .col-md-12 h2 span { font-size: 34px }
+	}
+
+
+
+	@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+		section.section-parallax-bg {
+			background-position: center top;
+			background-attachment:fixed;
+					background-size: auto;
+			   -moz-background-size: auto;
+			-webkit-background-size: auto;
+				 -o-background-size: auto;
+		}
+		section.section-parallax-bg .overlay, section.section-parallax-bg {  height:440px }
+		section.section-parallax-bg .overlay {  padding-top:60px }
+		section.section-parallax-bg .col-md-12 h1 { font-size: 96px }
+		section.section-parallax-bg .col-md-12 h2 { font-size: 32px }
+		section.section-parallax-bg .col-md-12 h3 i { display:inline-block;font-size: 24px; height:34px; width:34px;padding-top:8px}
+		section.section-parallax-bg .col-md-12 h3 { display:inline-block;font-size:24px;  margin-bottom: 1px}
+
+	}
+	@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape) {
+		section.section-parallax-bg {
+			background-position: center top;
+			background-attachment:fixed;
+					background-size: auto;
+			   -moz-background-size: auto;
+			-webkit-background-size: auto;
+				 -o-background-size: auto;
+		}
+		section.section-parallax-bg {  height:420px }
+		section.section-parallax-bg .overlay {  height:420px }
+		section.section-parallax-bg .overlay {  padding-top:40px }
+		section.section-parallax-bg .col-md-12 h1 { font-size: 96px }
+		section.section-parallax-bg .col-md-12 h2 { font-size: 42px; margin: 0 auto 0 auto; }
+		section.section-parallax-bg .col-md-12 h3 i { display:inline-block;font-size: 24px; height:34px; width:34px;padding-top:8px}
+		section.section-parallax-bg .col-md-12 h3 { display:inline-block; font-size:24px;  margin-bottom: 1px}
+	}
+
+
+
+/* COUNT DOWN ================================================================================ */
+
+	.block-countdown { width:100%; clear:both; background:#ea2f4c}
+	.block-vertical.block-countdown h3, .block-vertical.block-countdown h4 { color:#fff; margin: 0 auto  }
+
+	.countdown { text-align: center }
+	.countdown-row { color: #fff; font-weight: 300;padding-left:0 }
+	.countdown-section { width: 16%; display: inline-block; background:#000 }
+	.countdown-section:first-child { padding-left:0;margin-left:0 }
+	.countdown-section:last-child { padding-right:0;margin-right:0 }
+
+	.countdown-amount { display: inline-block; line-height:100%;  margin: 0 auto;padding:0 }
+	.countdown-period { display: block }
+
+
+	/*--- Mobile portrait ---*/
+	@media all and (max-width: 320px) {
+		.block-vertical.block-countdown { padding:64px 0 48px 0 }
+		.block-vertical.block-countdown .col-md-10 h3 { font-size:24px;letter-spacing:-1px  }
+		.block-vertical.block-countdown .col-md-10 h4 { font-size:14px;font-weight:bold }
+		.countdown { padding: 30px 0 30px 0 }
+		.countdown-row { font-size: 22px }
+		.countdown-section { width: 18%; margin: auto 10px auto 10px;padding: 0 0 10px 0 }
+		.countdown-amount { margin-bottom: 12px }
+		.countdown-period { font-size: 12px }
+	}
+
+	@media all and (min-width: 321px) and (max-width: 360px) {
+		.block-vertical.block-countdown { padding:64px 0 48px 0 }
+		.block-vertical.block-countdown .col-md-10 h3 { font-size:24px;letter-spacing:-1px  }
+		.block-vertical.block-countdown .col-md-10 h4 { font-size:16px;font-weight:bold }
+		.countdown { padding: 30px 0 30px 0 }
+		.countdown-row { font-size: 32px }
+		.countdown-section { width: 18%; margin: auto 10px auto 10px;padding: 0 0 10px 0 }
+		.countdown-amount { margin-bottom: 12px }
+		.countdown-period { font-size: 12px }
+	}
+
+	/*--- Mobile landscape ---*/
+	@media all and (min-width: 361px) and (max-width: 480px) {
+		.block-vertical.block-countdown { padding:64px 0 48px 0 }
+		.block-vertical.block-countdown .col-md-10 h3 { font-size:24px;letter-spacing:-1px  }
+		.block-vertical.block-countdown .col-md-10 h4 { font-size:16px;font-weight:bold }
+		.countdown { padding: 30px 0 30px 0 }
+		.countdown-row { font-size: 32px }
+		.countdown-section { width: 18%; margin: auto 10px auto 10px;padding: 0 0 10px 0 }
+		.countdown-amount { margin-bottom: 12px }
+		.countdown-period { font-size: 12px }
+	}
+
+	/*--- Small tablets (sm) --*/
+	@media all and (min-width: 481px) and (max-width: 767px) {
+		.block-vertical.block-countdown { padding:64px 0 48px 0 }
+		.block-vertical.block-countdown .col-md-10 h3 { font-size:28px;letter-spacing:-1px  }
+		.block-vertical.block-countdown .col-md-10 h4 { font-size:18px;font-weight:bold }
+		.countdown { padding: 30px 0 30px 0 }
+		.countdown-row { font-size: 42px }
+		.countdown-section { width: 18%; margin: auto 10px auto 10px;padding: 0 0 10px 0 }
+		.countdown-amount { margin-bottom: 12px }
+		.countdown-period { font-size: 12px }
+	}
+
+	/* Smaller desktops and laptops ( multiple cols, md) */
+	@media all and (min-width: 768px) and (max-width: 991px) {
+		.block-vertical.block-countdown { padding:64px 0 48px 0 }
+		.block-vertical.block-countdown .col-md-10 h3 { font-size:28px;font-weight:bold; letter-spacing:-1px  }
+		.block-vertical.block-countdown .col-md-10 h4 { font-size:18px;font-weight:bold }
+		.countdown { padding: 30px 0 30px 0 }
+		.countdown-row { font-size: 40px }
+		.countdown-section { width: 12%; margin: auto 20px auto 20px;padding: 0 0 20px 0 }
+		.countdown-amount { margin-bottom: 12px }
+		.countdown-period { font-size: 15px }
+	}
+
+	/* Less small desktops and laptops (lg) ----------- */
+	@media  all and  (min-width : 992px) and (max-width: 1024px) {
+		.block-vertical.block-countdown { padding:64px 0 48px 0 }
+		.block-vertical.block-countdown .col-md-10 h3 { font-size:36px }
+		.block-vertical.block-countdown .col-md-10 h4 { font-size:20px;font-weight:bold }
+		.countdown { padding: 50px 0 50px 0 }
+		.countdown-row { font-size: 48px }
+		.countdown-section { width: 12%; margin: auto 20px auto 20px;padding: 0 0 20px 0 }
+		.countdown-amount { margin-bottom: 12px }
+		.countdown-period { font-size: 16px }
+	}
+
+	@media  all and  (min-width : 1025px) and (max-width: 1223px) {
+		.block-vertical.block-countdown { padding:64px 0 48px 0 }
+		.block-vertical.block-countdown .col-md-10 h3 { font-size:38px }
+		.block-vertical.block-countdown .col-md-10 h4 { font-size:20px;font-weight:bold }
+		.countdown { padding: 50px 0 50px 0 }
+		.countdown-row { font-size: 52px }
+		.countdown-section { width: 12%; margin: auto 20px auto 20px;padding: 0 0 20px 0 }
+		.countdown-amount { margin-bottom: 12px }
+		.countdown-period { font-size: 16px }
+	}
+
+	@media  all and  (min-width: 1224px) and (max-width: 1336px) {
+		.block-vertical.block-countdown { padding:64px 0 48px 0 }
+		.block-vertical.block-countdown .col-md-10 h3 { font-size:42px }
+		.block-vertical.block-countdown .col-md-10 h4 { font-size:22px;font-weight:bold }
+		.countdown { padding: 50px 0 50px 0 }
+		.countdown-row { font-size: 60px }
+		.countdown-section { width: 12%; margin: auto 20px auto 20px;padding: 0 0 20px 0 }
+		.countdown-amount { margin-bottom: 12px }
+		.countdown-period { font-size: 16px }
+	}
+
+	/* Popular desktops and laptops ----------- */
+	@media  all and  (max-width: 1440px) and (min-width: 1337px) {
+		.block-vertical.block-countdown { padding:64px 0 48px 0 }
+		.block-vertical.block-countdown .col-md-10 h3 { font-size:42px }
+		.block-vertical.block-countdown .col-md-10 h4 { font-size:22px;font-weight:bold }
+		.countdown { padding: 50px 0 50px 0 }
+		.countdown-row { font-size: 60px }
+		.countdown-section { width: 12%; margin: auto 20px auto 20px;padding: 0 0 20px 0 }
+		.countdown-amount { margin-bottom: 12px }
+		.countdown-period { font-size: 16px }
+	}
+
+	/* Larger screens ----------- */
+	@media  all and  (min-width: 1441px) {
+		.block-vertical.block-countdown { padding:64px 0 48px 0 }
+		.block-vertical.block-countdown .col-md-10 h3 { font-size:42px }
+		.block-vertical.block-countdown .col-md-10 h4 { font-size:22px;font-weight:bold }
+		.countdown { padding: 50px 0 50px 0 }
+		.countdown-row { font-size: 60px }
+		.countdown-section { width: 12%; margin: auto 20px auto 20px;padding: 0 0 20px 0 }
+		.countdown-amount { margin-bottom: 12px }
+		.countdown-period { font-size: 16px }
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER ALL ================================================================================ */
+
+#footer-desktop, #footer_phone { width:100%; }
+
+
+/* FOOTER DESKTOP ================================================================================ */
+
+#footer-desktop {
+    height: 258px !important;
+    width: 100% !important;
+    margin: 10px 0 -180px 0 !important;
+    background: #2980b9 !important;
+    color: #fff !important;
+    padding: 20px 0 0 0 !important;
+    background: url('../img/bg-desktop-footer.jpg') no-repeat center bottom !important;
+    height: 300px !important;
+
+}
+
+#footer-desktop .well{
+	border-radius: 0 !important;
+    background: #2980b9 !important;
+    border-color: #2980b9 !important;
+    opacity: 0.9 !important;
+    padding: 12px 0 12px 20px !important;
+    min-height: 118px !important;
+
+	}
+
+#footer-desktop .col-one p i, #footer-desktop .col-two p i { color: #fff }
+#footer-desktop .col-one p { font-size:14px;margin-bottom:0;line-height:140%;padding-left:20px }
+#footer-desktop .col-two p {  font-size:14px;margin-bottom:0;line-height:180% }
+#footer-desktop .col-three p { font-size:14px; line-height:138%;margin-bottom:10px }
+#footer-desktop .col-two p a:link, #footer-desktop .col-two p a:visited,
+#footer-desktop .col-three p a:link, #footer-desktop .col-three p a:visited {
+	color:#fff;text-decoration:none;
+}
+#footer-desktop .col-two p a:active, #footer-desktop .col-two p a:hover,
+#footer-desktop .col-three p a:active, #footer-desktop .col-three p a:hover {
+	color:#fff;text-decoration:underline;
+}
+
+/* phone portrait */
+@media all and (max-width: 320px) {
+	#footer_phone { display:block }
+	#footer-desktop { display:none }
+	#footer_phone { margin:20px auto 0 auto;padding: 12px 0 10px 0; background:#005581;color:#fff; }
+	#footer_phone .col-xs-6 p {
+		color:#fff;font-size:12px;text-align:left;
+		margin-bottom:4px; padding: 0 10px;line-height:124% }
+    #footer_phone p a:link, #footer_phone p a:visited  { color:#fff;text-decoration:underline }
+    #footer_phone p a:hover, #footer_phone p a:active  { color:#fff;text-decoration:none }
+	.col-orange { height: 80px;text-align:center }
+}
+
+/* phone landscape */
+@media all and (max-width: 480px)  and (min-width: 321px) {
+	#footer_phone { display:block }
+	#footer-desktop { display:none }
+	#footer_phone { margin:20px auto 0 auto;padding: 12px 0 10px 0; background:#005581;color:#fff; }
+	#footer_phone .col-xs-6 p {
+		color:#fff;font-size:12px;text-align:left;
+		margin-bottom:4px; padding: 0 10px;line-height:124% }
+    #footer_phone p a:link, #footer_phone p a:visited  { color:#fff;text-decoration:underline }
+    #footer_phone p a:hover, #footer_phone p a:active  { color:#fff;text-decoration:none }
+}
+
+/* tablet portrait */
+@media all and (max-width: 766px) and (min-width: 481px) {
+	#footer_phone { display:block }
+	#footer-desktop { display:none }
+	#footer_phone { margin:20px auto 0 auto;padding: 12px 0 10px 0; background:#005581;color:#fff; }
+	#footer_phone .col-xs-6 p {
+		color:#fff;font-size:14px;text-align:left;
+		margin-bottom:4px; padding: 0 10px;line-height:124% }
+	#footer_phone p a:link, #footer_phone p a:visited  { color:#fff;text-decoration:underline }
+	#footer_phone p a:hover, #footer_phone p a:active  { color:#fff;text-decoration:none }
+}
+
+/* tablet landscape */
+@media all and (max-width: 979px) and (min-width: 767px) {
+	#footer_phone { display:none }
+	#footer-desktop { display:block }
+	.navbar-fixed-bottom { display:none}
+	#footer-desktop { height:180px;margin:0; }
+}
+
+/*small desktop */
+@media all and (max-width: 991px) and (min-width: 980px) {
+	#footer_phone { display:none }
+	#footer-desktop { display:block }
+	#footer-desktop { height:180px;margin: 0; }
+}
+
+/* medium desktop */
+@media all and (max-width: 1200px) and (min-width: 992px) {
+	#footer_phone { display:none }
+	#footer-desktop { display:block }
+	#footer-desktop { height:180px;margin:0; }
+}
+
+/* medium desktop */
+@media all and (max-width: 1200px) and (min-width: 992px) {
+	#footer-desktop { height:180px;margin:0; }
+}
+
+
+/* big desktop */
+@media all and (min-width: 1201px) {
+	#footer_phone { display:none }
+	#footer-desktop { display:block }
+}
+
+/* COOKIE LAW AT PAGE TOP  ============================================================================= */
+#cookie-law-outer { width:100%; background:#f3f6f6; }
+
+#cookie-law-outer .container {
+background:#f3f6f6;  margin:0 auto 0 auto; border-radius: 0; padding:0; }
+
+#cookie-law-outer .col-md-8 p {
+margin:0; text-align:left;  font-weight:bold; color:#000;
+text-align:left; line-height:128%  }
+
+#cookie-law-outer .col-md-3 a.btn { text-transform: uppercase;
+color:#fff;border-width:0;font-weight:bold }
+
+#cookie-law-outer .col-md-3 a.btn:link,
+#cookie-law-outer .col-md-3 a.btn:visited { background: #0084A9 }
+
+#cookie-law-outer .col-md-3 a.btn:hover,
+#cookie-law-outer .col-md-3 a.btn:active { background: #005A75 }
+
+/* phone portrait */
+@media all and (max-width: 320px)  {
+
+#cookie-law-outer .container   { background: #f3f6f6 }
+#cookie-law, #cookie-law .row { background: #f3f6f6 }
+#cookie-law-outer { margin-top:0;background: #f3f6f6 !important;width:100%  }
+#cookie-law-outer .col-md-12 p { font-size: 11px;padding: 6px 0 6px 12px;line-height:132%;margin:0 }
+#cookie-law-outer .col-md-12 p img { float: right;margin-right: 12px }
+}
+
+@media all and (max-width: 480px) and (min-width: 321px) {
+#cookie-law-outer .container   { background: #f3f6f6 }
+#cookie-law, #cookie-law .row { background: #f3f6f6 }
+#cookie-law-outer { margin-top:0;background: #f3f6f6 !important;width:100%  }
+#cookie-law-outer .col-md-12 p { font-size: 11px;padding: 6px 0 6px 12px;line-height:132%;margin:0 }
+#cookie-law-outer .col-md-12 p img { float: right;margin-right: 12px }
+
+}
+
+/* tablet portrait */
+@media all and (max-width: 766px) and (min-width: 481px) {
+#cookie-law-outer .col-md-1 p { padding-top:20px; text-align:right  }
+#cookie-law-outer .col-md-1 p i { font-size:32px }
+#cookie-law-outer .col-md-8 p { font-size: 14px;padding: 20px 0  }
+#cookie-law-outer .col-md-3 a.btn { margin-top: 20px;padding: 10px 20px }
+#cookie-law-outer .col-md-8 p br.desktop-br { display: none }
+#cookie-law-outer .col-md-8 p br.mobile-320-br { display: none }
+
+#cookie-law-outer .container   { background: #f3f6f6 }
+#cookie-law, #cookie-law .row { background: #f3f6f6 }
+#cookie-law-outer { margin-top:0;background: #f3f6f6 !important;width:100%  }
+#cookie-law-outer .col-md-12 p { font-size: 11px;padding: 6px 0 6px 12px;line-height:132%;margin:0 }
+#cookie-law-outer .col-md-12 p img { float: right;margin-right: 12px }
+
+
+
+}
+
+/* tablet landscape */
+@media all and (max-width: 979px) and (min-width: 767px) {
+#cookie-law-outer .col-md-1 p { padding-top:20px; text-align:right  }
+#cookie-law-outer .col-md-1 p i { padding-top:20px; font-size:32px }
+#cookie-law-outer .col-md-8 p { font-size: 14px;padding: 20px 0  }
+#cookie-law-outer .col-md-8 a.btn { margin-top: 16px;padding: 2px 10px }
+#cookie-law-outer .col-md-8 p br.desktop-br { display: none }
+#cookie-law-outer .col-md-8 p br.mobile-320-br { display: none }
+#cookie-law-outer .container   { background: #f3f6f6 }
+#cookie-law, #cookie-law .row { background: #f3f6f6 }
+#cookie-law-outer { margin-top:0;background: #f3f6f6 !important;width:100%  }
+#cookie-law-outer .col-md-12 p { font-size: 11px;padding: 6px 0 6px 12px;line-height:132%;margin:0 }
+#cookie-law-outer .col-md-12 p img { float: right;margin-right: 12px }
+
+}
+
+/* desktop */
+@media all and (max-width: 1200px) and (min-width: 980px) {
+#cookie-law-outer .col-md-1 p { padding-top:20px; text-align:right  }
+#cookie-law-outer .col-md-1 p i { font-size:32px }
+#cookie-law-outer .col-md-8 p { font-size: 14px;padding: 20px 0  }
+#cookie-law-outer .col-md-3 a.btn { margin-top: 20px;padding: 10px 10px }
+#cookie-law-outer .col-md-8 p br.desktop-br { display: block }
+#cookie-law-outer .col-md-8 p br.mobile-320-br { display: none }
+
+#cookie-law-outer .container   { background: #f3f6f6 }
+#cookie-law, #cookie-law .row { background: #f3f6f6 }
+#cookie-law-outer { margin-top:0;background: #f3f6f6 !important;width:100%  }
+#cookie-law-outer .col-md-12 p { font-size: 11px;padding: 6px 0 6px 12px;line-height:132%;margin:0 }
+#cookie-law-outer .col-md-12 p img { float: right;margin-right: 12px }
+
+}
+
+/* large desktop */
+@media all and (min-width: 1201px) {
+#cookie-law-outer .col-md-1 p { padding-top:20px; text-align:right  }
+#cookie-law-outer .col-md-1 p i { font-size:32px }
+#cookie-law-outer .col-md-8 p { font-size: 14px;padding: 20px 0  }
+#cookie-law-outer .col-md-3 a.btn { margin-top: 20px;padding: 10px 20px }
+#cookie-law-outer .col-md-8 p br.desktop-br { display: block }
+#cookie-law-outer .col-md-8 p br.mobile-320-br { display: none }
+}
+
+
+/* CAROUSEL ===============================================================================  */
+
+#myCarousel, #myCarousel2 { margin-top:0 }
+
+
+/* Carousel base class */
+.carousel { margin-bottom:0; margin-top:58px; }
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption { z-index: 10 }
+.carousel-caption { background-color: rgba(0, 0, 0, 0.65); color:#fff;opacity:0.9;}
+.carousel-caption { background:transparent }
+.carousel-caption { top:10%;height:56%;width:60%;left:16%;right:16% }
+
+
+/* Declare heights because of positioning of img element */
+#myCarousel .carousel .item { background-color: #777 }
+
+.carousel-inner > .item > img {  }
+
+.item .container .carousel-caption h1 { text-align:center; margin: auto; color: #fff;font-size:132px }
+.item .container .carousel-caption h2 { text-align:left; line-height:112%; padding: 0 12px }
+.item .container .carousel-caption h2 { font-size:22px;line-height:136% }
+.item .container .carousel-caption h2 { text-align:center; margin: auto; color: #fff }
+
+
+#myCarousel h1,
+#myCarousel2 h1 {
+	font-size:600%;line-height:90%;text-align:center;
+	color:#fff;background:#2980B9;display:inline-block;
+	padding: 20px 20px;
+	opacity:0.95;
+}
+
+#myCarousel h2, #myCarousel2 h2 { font-size:300%;line-height:90%;text-align:center;color:#fff; }
+
+
+/* phone portrait */
+@media all and (max-width: 320px) {
+	#myCarousel { display:none }
+	#myCarousel2 { display:block }
+}
+
+/* phone landscape */
+@media all and (max-width: 480px)  and (min-width: 321px) {
+	#myCarousel { display:none }
+	#myCarousel2 { display:block }
+}
+
+/* tablet portrait */
+@media all and (max-width: 766px) and (min-width: 481px) {
+	#myCarousel { display:none }
+	#myCarousel2 { display:block }
+}
+
+/* tablet landscape */
+@media all and (max-width: 979px) and (min-width: 767px) {
+	#myCarousel { display:block }
+	#myCarousel2 { display:none }
+	#myCarousel .carousel .item { height: 280px }
+	#myCarousel .carousel-caption { top:10%;height:40%;left: 20%;width:60% }
+	#myCarousel h1 { font-size:500%;padding: 12px 20px;margin-top:30px  }
+	#myCarousel h2 { display:none }
+}
+
+/* small desktop */
+@media all and (max-width: 991px) and (min-width: 980px) {
+	#myCarousel { display:block }
+	#myCarousel2 { display:none }
+	#myCarousel .carousel .item { height: 340px }
+	#myCarousel .carousel-caption { top:10%;height:40%;left: 20%;width:60% }
+	#myCarousel h1 { font-size:600%;padding: 12px 20px;margin-top:30px  }
+	#myCarousel h2 { display:none }
+}
+
+/* medium desktop */
+@media all and (max-width: 1200px) and (min-width: 992px) {
+	#myCarousel { display:block }
+	#myCarousel2 { display:none }
+	#myCarousel .carousel .item { height:  340px }
+	#myCarousel .carousel-caption { top:10%;height:56%;left:34%;width:34% }
+	#myCarousel h1 { font-size:600%;padding: 12px 20px;margin-top:30px  }
+	#myCarousel h2 { display:none }
+}
+
+/* big desktop */
+@media all and (min-width: 1201px) {
+	#myCarousel { display:block }
+	#myCarousel2 { display:none }
+	#myCarousel .carousel .item { height: 400px !important }
+	#myCarousel .carousel-caption { top:10%;height:56%;left:34%;width:34% }
+	#myCarousel h1 { font-size:600%;padding: 12px 20px;margin-top:30px  }
+	#myCarousel h2 { display:none }
+}
+
+
+/* phone portrait */
+@media all and (max-width: 320px) {
+	#myCarousel2 { display:block }
+	#myCarousel2 div.carousel div.carousel-inner div.item { height: 260px !important  }
+	#myCarousel2 .carousel-caption { top:10%;height:52%;left: 10%;width:80% }
+	#myCarousel2 h1 { font-size:360%;padding: 12px 20px;margin-top:30px  }
+	#myCarousel2 h2 { display:none }
+}
+
+/* phone landscape */
+@media all and (max-width: 480px)  and (min-width: 321px) {
+	#myCarousel2 { display:block }
+	#myCarousel2 .carousel .item { height: 390px }
+	#myCarousel2 .carousel-caption { top:10%;height:54%;left: 10%;width:80% }
+	#myCarousel2 h1 { font-size:300%;padding: 12px 20px;margin-top:30px  }
+	#myCarousel2 h2 { display:none }
+}
+
+/* tablet portrait */
+@media all and (max-width: 766px) and (min-width: 481px) {
+	#myCarousel2 { display:block }
+	#myCarousel2 .carousel .item { height: 390px }
+	#myCarousel2 .carousel-caption { top:10%;height:62%;left: 20%;width:60% }
+	#myCarousel2 h1 { font-size:300%;padding: 12px 20px;margin-top:30px  }
+	#myCarousel2 h2 { display:none }
+}
+
+

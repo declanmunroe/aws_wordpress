@@ -1,0 +1,104 @@
+a.holder { display:block; width:200px; height:70px }
+	.holder1-col { background-image:url('../img/logo-ecdl-200x70.png') }
+	.holder2-col { background-image:url('../img/logo-ba-200x70.png') }
+	.holder3-col { background-image:url('../img/logo-iasa-200x70.png') }
+	.holder4-col { background-image:url('../img/logo-scratch-200x70.png') }
+	.holder5-col { background-image:url('../img/logo-bebras-200x70.png') }
+	.holder6-col { background-image:url('../img/logo-dpo-200x70.png') }
+	.holder7-col { background-image:url('../img/logo-hisi-200x70.png') }
+	.holder8-col { background-image:url('../img/logo-f1-200x70.png') }
+	.holder9-col { background-image:url('../img/logo-techweek-200x70.png') }
+	.holder10-col { background-image:url('../img/logo-ics-200x70.png') }
+	.holder11-col { background-image:url('../img/logo-itsmf-200x70.png') }
+
+	.holder1-bw { background-image:url('../img/logo-bw-ecdl-200x70.png') }
+	.holder2-bw { background-image:url('../img/logo-bw-ba-200x70.png') }
+	.holder3-bw { background-image:url('../img/logo-bw-iasa-200x70.png') }
+	.holder4-bw { background-image:url('../img/logo-bw-scratch-200x70.png') }
+	.holder5-bw { background-image:url('../img/logo-bw-bebras-200x70.png') }
+	.holder6-bw { background-image:url('../img/logo-bw-dpo-200x70.png') }
+	.holder7-bw { background-image:url('../img/logo-bw-hisi-200x70.png') }
+	.holder8-bw { background-image:url('../img/logo-bw-f1-200x70.png') }
+	.holder9-bw { background-image:url('../img/logo-bw-techweek-200x70.png') }
+	.holder10-bw { background-image:url('../img/logo-bw-ics-200x70.png') }
+	.holder11-bw { background-image:url('../img/logo-bw-itsmf-200x70.png') }
+	.logos a:focus, a:hover{
+		text-decoration: none !important
+	}
+
+/* LOGOS ============================================================== */
+
+.logos { background:#eee;margin-bottom:-20px;padding-bottom:0 }
+.logos ul { list-style-type: none; margin: 0 0 0 0; padding:0; text-align:center  }
+.logos ul li { list-style-type: none; display: inline; float: left; padding: 10px 10px 10px 10px  }
+
+.logos h2{
+		color: #000 !important;
+	}
+
+.logos { margin: 0; padding: 0 }
+.logos col-md-12 h2 br { display: none }
+.logos p { text-align:center; font-weight:normal }
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+	.logos { padding: 10px 0 30px 0  }
+	.logos .col-md-12 h2 { font-size:24px  }
+	.logos .col-md-12 h2 br { display: inline-block }
+	.logos p { font-size: 14px; padding: 0 20px 10px 20px }
+	.logos .col-md-12 ul { margin-left: 36px }
+}
+
+/* Smartphones (landscape) ----------- */
+@media all and (max-width: 480px)  and (min-width: 321px) {
+	.logos { padding: 10px 0 30px 0  }
+	.logos .col-md-12 h2 { font-size:36px  }
+	.logos .col-md-12 h2 br { display: inline-block }
+	.logos p { font-size: 14px; padding: 0 20px 10px 20px }
+}
+
+/* Other tablets ----------- */
+@media all and (max-width: 767px) and (min-width: 481px) {
+	.logos { padding: 10px 0 30px 0  }
+	.logos .col-md-12 h2 { font-size:36px  }
+	.logos .col-md-12 h2 br { display: inline-block }
+	.logos p { font-size: 14px; padding: 0 20px 10px 20px }
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+	.logos { padding: 10px 0 30px 0  }
+	.logos p { font-size: 16px; padding: 0 40px 0 40px }
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+	.logos { padding: 10px 0 50px 0  }
+	.logos p { font-size: 16px; padding: 0 40px 10px 40px }
+}
+
+/* Smaller desktops ----------- */
+@media all and (max-width: 1223px) and (min-width: 1025px) {
+	.logos { padding: 20px 0 30px 0  }
+	.logos .col-md-12 h2 { font-size:42px  }
+	.logos .col-md-12 h2 br { display: none }
+	.logos p { font-size: 16px; padding: 0 20px 0 20px }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+	.logos { padding: 30px 0 80px 0  }
+	.logos .col-md-12 h2 { font-size:48px;margin-bottom: 20px   }
+	.logos .col-md-12 h2 br { display: none }
+	.logos p { font-size: 16px; padding: 0 40px 4px 40px }
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width : 1824px) {
+	.logos { padding: 20px 0 80px 0  }
+	.logos .col-md-12 h2 { font-size:48px;margin-bottom: 30px   }
+	.logos .col-md-12 h2 br { display: none }
+	.logos p { font-size: 16px; padding: 0 20px 10px 20px }
+}
+
+
