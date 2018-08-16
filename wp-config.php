@@ -46,6 +46,8 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
+define('AS3CF_AWS_ACCESS_KEY_ID', 'AKIAJ2Y244NLSRY4M4QA');
+define('AS3CF_AWS_SECRET_ACCESS_KEY', 'cdwrUwVAghVOFxY5foikA6D+DMLIDOsHYMUnkxAP');
 define('AUTH_KEY',         'put your unique phrase here');
 define('SECURE_AUTH_KEY',  'put your unique phrase here');
 define('LOGGED_IN_KEY',    'put your unique phrase here');
